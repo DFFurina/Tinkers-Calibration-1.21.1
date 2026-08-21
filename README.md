@@ -2,6 +2,8 @@
 
 这是一个面向 **Minecraft 1.21.1** 与 **NeoForge** 的 Tinkers Calibration（匠魂校准）移植项目。
 
+本项目的创作过程中使用了AI帮助，若有问题请提交issue。谢谢！
+
 ## 项目信息
 
 - Mod ID：`tinkerscalibration`
