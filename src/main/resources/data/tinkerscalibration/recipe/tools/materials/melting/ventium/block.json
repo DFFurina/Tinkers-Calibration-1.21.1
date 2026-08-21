@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:ventium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenventium",
+                   "amount":  810
+               },
+    "temperature":  800,
+    "time":  280
+}

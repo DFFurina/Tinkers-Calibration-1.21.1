@@ -1,0 +1,28 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  180,
+                       "fluid":  "tconstruct:molten_iron"
+                   },
+                   {
+                       "amount":  90,
+                       "fluid":  "tinkers_thinking:molten_ardite"
+                   },
+                   {
+                       "amount":  1000,
+                       "fluid":  "tconstruct:molten_obsidian"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenlindsteel",
+                   "amount":  180
+               },
+    "temperature":  1200,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "tinkers_thinking",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

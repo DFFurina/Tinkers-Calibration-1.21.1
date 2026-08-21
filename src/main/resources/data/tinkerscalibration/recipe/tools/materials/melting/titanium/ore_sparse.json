@@ -1,0 +1,37 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/titanium"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/sparse"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentitanium",
+                   "amount":  90
+               },
+    "temperature":  1350,
+    "time":  112,
+    "byproducts":  [
+                       {
+                           "fluid":  "tconstruct:molten_iron",
+                           "amount":  90
+                       }
+                   ],
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/titanium",
+                                                 "c:ore_rates/sparse"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

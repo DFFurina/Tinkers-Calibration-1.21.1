@@ -1,0 +1,38 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/tonium"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/dense"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  540
+               },
+    "temperature":  1220,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltenhalleium",
+                           "amount":  540,
+                           "rate":  "metal"
+                       }
+                   ],
+    "time":  337,
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/tonium",
+                                                 "c:ore_rates/dense"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

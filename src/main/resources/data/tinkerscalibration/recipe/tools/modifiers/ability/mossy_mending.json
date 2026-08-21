@@ -1,0 +1,19 @@
+{
+    "type":  "tconstruct:modifier",
+    "inputs":  [
+                   {
+                       "item":  "tinkerscalibration:mending_moss"
+                   }
+               ],
+    "tools":  {
+                  "tag":  "tconstruct:modifiable/durability"
+              },
+    "slots":  {
+                  "abilities":  1
+              },
+    "allow_crystal":  true,
+    "result":  "tinkerscalibration:mossmending",
+    "level":  {
+                  "max":  3
+              }
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:tonium",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  90
+               },
+    "temperature":  1220
+}

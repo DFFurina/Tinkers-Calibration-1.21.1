@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "tag":  "c:storage_blocks/silicon"
+                   },
+    "value":  9,
+    "needed":  1,
+    "material":  "tinkerscalibration:silicon"
+}

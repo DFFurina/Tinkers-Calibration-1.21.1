@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:tonium_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  10
+               },
+    "temperature":  1220,
+    "time":  10
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltendiopside"
+              },
+    "temperature":  1400,
+    "output":  "tinkerscalibration:diopside"
+}

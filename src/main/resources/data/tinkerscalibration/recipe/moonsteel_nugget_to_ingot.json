@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:moonsteel_nugget"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:moonsteel_ingot"
+               }
+}

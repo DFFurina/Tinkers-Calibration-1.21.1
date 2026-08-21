@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  400,
+                  "fluid":  "tinkerscalibration:moltenicelandspar"
+              },
+    "result":  "tinkerscalibration:iceland_spar_block",
+    "cooling_time":  275
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tinkerscalibration:fazelle_block",
+    "tinkerscalibration:lindsteel_block",
+    "tinkerscalibration:emperorslime_block",
+    "tinkerscalibration:witherium_block",
+    "tinkerscalibration:oraclium_block"
+  ]
+}

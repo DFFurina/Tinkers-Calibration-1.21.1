@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:diopside_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltendiopside",
+                   "amount":  900
+               },
+    "temperature":  900,
+    "time":  80
+}

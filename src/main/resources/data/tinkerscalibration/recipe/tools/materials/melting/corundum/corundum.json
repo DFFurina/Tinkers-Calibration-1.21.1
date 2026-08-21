@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:corundum"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltencorundum",
+                   "amount":  100
+               },
+    "temperature":  925,
+    "time":  30
+}

@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:topaz_crystal"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentopaz",
+                   "amount":  100
+               },
+    "temperature":  700,
+    "time":  30
+}

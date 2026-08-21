@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  810,
+                  "fluid":  "tinkerscalibration:moltencarminite"
+              },
+    "result":  "twilightforest:carminite_block",
+    "cooling_time":  125,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "twilightforest",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

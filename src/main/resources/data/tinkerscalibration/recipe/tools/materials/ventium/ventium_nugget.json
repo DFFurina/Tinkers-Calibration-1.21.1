@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "tag":  "blue_skies:nuggets/ventium"
+                   },
+    "value":  1,
+    "needed":  9,
+    "material":  "tinkerscalibration:ventium",
+    "neoforge:conditions":  [
+                                {
+                                    "value":  {
+                                                  "tag":  "blue_skies:nuggets/ventium",
+                                                  "type":  "mantle:tag_empty"
+                                              },
+                                    "type":  "neoforge:not"
+                                }
+                            ]
+}

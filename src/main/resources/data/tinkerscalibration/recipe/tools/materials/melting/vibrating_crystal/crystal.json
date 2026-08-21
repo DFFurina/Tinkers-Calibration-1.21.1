@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:vibrating_crystal"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenvibratingcrystal",
+                   "amount":  100
+               },
+    "temperature":  785,
+    "time":  30
+}

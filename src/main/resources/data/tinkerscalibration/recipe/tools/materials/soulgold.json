@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  300,
+                       "fluid":  "tconstruct:liquid_soul"
+                   },
+                   {
+                       "amount":  90,
+                       "fluid":  "tconstruct:molten_gold"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltensoulgold",
+                   "amount":  150
+               },
+    "temperature":  1000
+}

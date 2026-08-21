@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:witherium_ingot"
+                   },
+    "value":  1,
+    "needed":  1,
+    "material":  "tinkerscalibration:wither"
+}

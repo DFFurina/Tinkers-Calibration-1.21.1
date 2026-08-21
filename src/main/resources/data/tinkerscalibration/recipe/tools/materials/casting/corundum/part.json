@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltencorundum"
+              },
+    "temperature":  925,
+    "output":  "tinkerscalibration:corundum"
+}

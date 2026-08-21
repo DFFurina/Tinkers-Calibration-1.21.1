@@ -1,0 +1,26 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:ingots/mangobberslime",
+    "#c:ingots/moonsteel",
+    "#c:ingots/alumite",
+    "#c:ingots/mandite",
+    "#c:ingots/gravity",
+    "#c:ingots/lindsteel",
+    "#c:ingots/fazelle",
+    "#c:ingots/grain",
+    "#c:ingots/emperorslime",
+    "#c:ingots/soulgold",
+    "#c:ingots/jazz",
+    "#c:ingots/immersed_silver",
+    "#c:ingots/inert_witherium",
+    "#c:ingots/halleium",
+    "#c:ingots/hothium",
+    "#c:ingots/magiga",
+    "#c:ingots/tonium",
+    "#c:ingots/oraclium",
+    "#c:ingots/steamium",
+    "#c:ingots/stellarium",
+    "#c:ingots/witherium"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "loader": "tconstruct:tool",
+  "parent": "neoforge:item/default",
+  "textures": {
+    "head_plate": "constructsarmory:item/tool/helmet/head_plate",
+    "broken_head_plate": "constructsarmory:item/tool/helmet/broken_head_plate",
+    "mail": "constructsarmory:item/tool/helmet/mail"
+  },
+  "parts": [
+    { "name": "head_plate", "index": 0, "broken": "broken_head_plate" },
+    { "name": "mail", "index": 1 }
+  ]
+}

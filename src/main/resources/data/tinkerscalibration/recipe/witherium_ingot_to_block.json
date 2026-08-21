@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:witherium_ingot"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:witherium_block"
+               }
+}

@@ -1,0 +1,14 @@
+{
+  "asset_name": "tinkerscalibration_fazelle",
+  "description": {
+    "color": "#5A603E",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.tinkerscalibration.fazelle"
+      }
+    ]
+  },
+  "ingredient": "tinkerscalibration:fazelle_ingot",
+  "item_model_index": 1.0
+}

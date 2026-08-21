@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "tinkerscalibration:witherium_ingot"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "id":  "tinkerscalibration:witherium_nugget"
+               }
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  400,
+                  "fluid":  "tinkerscalibration:moltencorundum"
+              },
+    "result":  "tinkerscalibration:corundum_block",
+    "cooling_time":  275
+}

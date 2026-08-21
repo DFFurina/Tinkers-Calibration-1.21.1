@@ -1,0 +1,14 @@
+{
+  "asset_name": "tinkerscalibration_mangobberslime",
+  "description": {
+    "color": "#9700BD",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.tinkerscalibration.mangobberslime"
+      }
+    ]
+  },
+  "ingredient": "tinkerscalibration:mangobberslime_ingot",
+  "item_model_index": 1.0
+}

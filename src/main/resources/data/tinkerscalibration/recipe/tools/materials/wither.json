@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  90,
+                       "fluid":  "tinkerscalibration:molteninertwitherium"
+                   },
+                   {
+                       "amount":  2000,
+                       "fluid":  "tconstruct:liquid_soul"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenwitherium",
+                   "amount":  150
+               },
+    "temperature":  1490
+}

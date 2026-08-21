@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:horizonite_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhorizonite",
+                   "amount":  90
+               },
+    "temperature":  790,
+    "time":  70
+}

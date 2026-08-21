@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:mangobberslime_nugget"
+                   },
+    "value":  1,
+    "needed":  9,
+    "material":  "tinkerscalibration:mangobberslime",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "gobber2",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "blue_skies:logs/lunar",
+          "type": "mantle:tag_empty"
+        },
+        "type": "neoforge:not"
+      }
+    ],
+    "type": "neoforge:or"
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 5,
+  "hidden": false
+}

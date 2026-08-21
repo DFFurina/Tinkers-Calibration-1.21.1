@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:darkmatter",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltendarkmatter",
+                   "amount":  90
+               },
+    "temperature":  550,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "projecte",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

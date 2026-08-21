@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:emerald",
+    "result":  {
+                   "fluid":  "tconstruct:molten_emerald",
+                   "amount":  100
+               },
+    "temperature":  450
+}

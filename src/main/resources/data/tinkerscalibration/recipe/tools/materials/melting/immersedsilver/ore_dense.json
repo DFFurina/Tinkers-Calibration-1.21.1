@@ -1,0 +1,31 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/immersed_silver"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/dense"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenimmersedsilver",
+                   "amount":  540
+               },
+    "temperature":  1090,
+    "time":  337,
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/immersed_silver",
+                                                 "c:ore_rates/dense"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

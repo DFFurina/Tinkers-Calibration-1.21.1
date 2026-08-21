@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "blue_skies:diopside_gem",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltendiopside",
+                   "amount":  100
+               },
+    "temperature":  1400
+}

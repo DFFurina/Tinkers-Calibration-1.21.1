@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "projecte:red_matter_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenredmatter",
+                   "amount":  360
+               },
+    "temperature":  1500,
+    "time":  150,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "projecte",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

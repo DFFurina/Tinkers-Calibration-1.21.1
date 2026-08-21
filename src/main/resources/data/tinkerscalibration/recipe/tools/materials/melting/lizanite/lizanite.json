@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:lizanite_crystal"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenlizanite",
+                   "amount":  100
+               },
+    "temperature":  780,
+    "time":  30
+}

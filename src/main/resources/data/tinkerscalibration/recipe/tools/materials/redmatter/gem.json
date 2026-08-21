@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "projecte:red_matter"
+                   },
+    "value":  1,
+    "needed":  1,
+    "material":  "tinkerscalibration:redmatter",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "projecte",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:moonstone_shard"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmoonstone",
+                   "amount":  100
+               },
+    "temperature":  800,
+    "time":  40
+}

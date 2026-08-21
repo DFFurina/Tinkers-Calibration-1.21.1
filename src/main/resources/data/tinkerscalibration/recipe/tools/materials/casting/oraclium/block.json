@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  810,
+                  "fluid":  "tinkerscalibration:moltenoraclium"
+              },
+    "result":  "tinkerscalibration:oraclium_block",
+    "cooling_time":  275
+}

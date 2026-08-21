@@ -1,0 +1,18 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:ores/titanium",
+    "#c:ores/hothium",
+    "#c:ores/immersed_silver",
+    "#c:ores/inert_witherium",
+    "#c:ores/magiga",
+    "#c:ores/tonium",
+    "#c:ores/stellarium",
+    "#c:ores/corundum",
+    "#c:ores/nitre",
+    "#c:ores/spinel",
+    "#c:ores/talcum",
+    "#c:ores/tourmaline",
+    "#c:ores/vibrating_crystal"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:immersed_silver_nugget"
+                   },
+    "value":  1,
+    "needed":  9,
+    "material":  "tinkerscalibration:immersedsilver"
+}

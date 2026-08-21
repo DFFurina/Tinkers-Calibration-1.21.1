@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tinkerscalibration:inert_witherium_ore",
+    "tinkerscalibration:stellarium_ore",
+    "tinkerscalibration:deepslate_stellarium_ore",
+    "tinkerscalibration:hothium_ore",
+    "tinkerscalibration:deepslate_hothium_ore",
+    "tinkerscalibration:tonium_ore",
+    "tinkerscalibration:deepslate_tonium_ore"
+  ]
+}

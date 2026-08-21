@@ -1,0 +1,6 @@
+{
+  "tinkerscalibration:mossy_mending": ["tinkerscalibration:item/mending_moss", "tconstruct:gui/modifiers/book"],
+  "tinkerscalibration:scute": ["tinkerscalibration:item/scute", "tconstruct:gui/modifiers/plus"],
+  "tinkerscalibration:defense_respawn": ["tinkerscalibration:item/defense_respawn", "tconstruct:gui/modifiers/plus"],
+  "tinkerscalibration:overshield": ["tinkerscalibration:item/overshield"]
+}

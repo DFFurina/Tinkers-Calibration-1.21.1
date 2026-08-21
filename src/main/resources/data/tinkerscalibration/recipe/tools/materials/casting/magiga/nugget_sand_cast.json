@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/single_use/nugget"
+             },
+    "fluid":  {
+                  "amount":  10,
+                  "fluid":  "tinkerscalibration:moltenmagiga"
+              },
+    "result":  "tinkerscalibration:magiga_nugget",
+    "cooling_time":  40
+}

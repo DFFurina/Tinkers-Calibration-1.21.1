@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "twilightforest:carminite_block"
+                   },
+    "value":  9,
+    "needed":  1,
+    "material":  "tinkerscalibration:carminite",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "twilightforest",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

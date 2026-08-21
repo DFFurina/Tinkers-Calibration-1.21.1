@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:tonium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  810
+               },
+    "temperature":  1220,
+    "time":  300
+}

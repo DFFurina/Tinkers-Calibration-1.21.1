@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/multi_use/gem"
+             },
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltenvibratingcrystal"
+              },
+    "result":  "tinkerscalibration:vibrating_crystal",
+    "cooling_time":  45
+}

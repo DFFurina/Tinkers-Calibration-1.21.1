@@ -1,0 +1,13 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/hothium"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhothium",
+                   "amount":  90
+               },
+    "temperature":  1070,
+    "time":  112
+}

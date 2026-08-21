@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "tinkerscalibration:mandite_block"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "id":  "tinkerscalibration:mandite_ingot"
+               }
+}

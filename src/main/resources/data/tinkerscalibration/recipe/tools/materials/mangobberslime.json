@@ -1,0 +1,28 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  90,
+                       "fluid":  "tconstruct:molten_queens_slime"
+                   },
+                   {
+                       "amount":  90,
+                       "fluid":  "tconstruct:molten_manyullyn"
+                   },
+                   {
+                       "amount":  450,
+                       "fluid":  "tinkerscalibration:moltenendgobber"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmangobberslime",
+                   "amount":  180
+               },
+    "temperature":  1500,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "gobber2",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

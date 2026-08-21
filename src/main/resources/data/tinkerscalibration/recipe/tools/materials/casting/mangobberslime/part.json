@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenmangobberslime"
+              },
+    "temperature":  1500,
+    "output":  "tinkerscalibration:mangobberslime",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "gobber2",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

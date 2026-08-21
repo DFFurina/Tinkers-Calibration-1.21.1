@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "tinkerscalibration:immersed_silver_block"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "id":  "tinkerscalibration:immersed_silver_ingot"
+               }
+}

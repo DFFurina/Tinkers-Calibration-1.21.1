@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  810,
+                  "fluid":  "tinkerscalibration:moltenhorizonite"
+              },
+    "result":  "blue_skies:horizonite_block",
+    "cooling_time":  275
+}

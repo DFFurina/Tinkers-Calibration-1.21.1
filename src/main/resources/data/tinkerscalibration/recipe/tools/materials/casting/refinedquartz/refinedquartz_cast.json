@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_table",
+    "fluid":  {
+                  "amount":  1000,
+                  "fluid":  "tinkerscalibration:moltenrefinedquartz"
+              },
+    "result":  "tinkerscalibration:refinedquartz",
+    "cooling_time":  175
+}

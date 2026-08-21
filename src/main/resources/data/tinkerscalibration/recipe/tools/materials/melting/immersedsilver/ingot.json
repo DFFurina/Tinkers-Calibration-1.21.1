@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:immersed_silver_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenimmersedsilver",
+                   "amount":  90
+               },
+    "temperature":  1090,
+    "time":  50
+}

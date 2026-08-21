@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:alumite_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenalumite",
+                   "amount":  10
+               },
+    "temperature":  925,
+    "time":  15
+}

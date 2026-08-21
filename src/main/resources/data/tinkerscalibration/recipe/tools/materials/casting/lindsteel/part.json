@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenlindsteel"
+              },
+    "temperature":  1200,
+    "output":  "tinkerscalibration:lindsteel"
+}

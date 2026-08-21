@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:extremespeed",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:extremespeed",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:extremespeed_armor",
+        "level": 1
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ]
+  }
+}

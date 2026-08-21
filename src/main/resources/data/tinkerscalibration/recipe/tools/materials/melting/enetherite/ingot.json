@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "upgradednetherite:ender_upgraded_netherite_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenenderite",
+                   "amount":  90
+               },
+    "temperature":  1250,
+    "time":  70
+}

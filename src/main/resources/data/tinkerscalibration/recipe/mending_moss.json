@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XAX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "minecraft:experience_bottle"
+                      },
+                "A":  {
+                          "item":  "tinkerscalibration:moss_ball"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:mending_moss"
+               }
+}

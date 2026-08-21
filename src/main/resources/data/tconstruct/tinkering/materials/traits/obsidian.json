@@ -1,0 +1,14 @@
+{
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "tconstruct:blast_protection"
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:igneous_armor"
+      }
+    ]
+  }
+}

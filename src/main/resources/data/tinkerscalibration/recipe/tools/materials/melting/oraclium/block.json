@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:oraclium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenoraclium",
+                   "amount":  810
+               },
+    "temperature":  1440,
+    "time":  300
+}

@@ -1,0 +1,7 @@
+{
+    "type":  "tinkerscalibration:spaghetti_modifier",
+    "ingredient":  {
+                       "item":  "minecraft:beetroot_soup"
+                   },
+    "restore_amount":  650
+}

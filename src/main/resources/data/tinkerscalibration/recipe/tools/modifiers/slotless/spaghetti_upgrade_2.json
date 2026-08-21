@@ -1,0 +1,7 @@
+{
+    "type":  "tinkerscalibration:spaghetti_modifier",
+    "ingredient":  {
+                       "item":  "tconstruct:meat_soup"
+                   },
+    "restore_amount":  1000
+}

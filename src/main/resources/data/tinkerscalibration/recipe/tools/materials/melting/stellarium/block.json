@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:stellarium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenstellarium",
+                   "amount":  810
+               },
+    "temperature":  1260,
+    "time":  300
+}

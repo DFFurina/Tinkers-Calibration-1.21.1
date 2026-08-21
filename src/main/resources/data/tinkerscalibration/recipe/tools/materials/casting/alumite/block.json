@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  810,
+                  "fluid":  "tinkerscalibration:moltenalumite"
+              },
+    "result":  "tinkerscalibration:alumite_block",
+    "cooling_time":  165
+}

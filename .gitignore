@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+repo/
+
+# ModDev / runtime
+run/
+runs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# Generated data cache
+src/generated/resources/.cache/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

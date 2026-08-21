@@ -1,0 +1,43 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "gem",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/corundum"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/dense"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltencorundum",
+                   "amount":  600
+               },
+    "temperature":  925,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltenlizanite",
+                           "amount":  600,
+                           "rate":  "gem"
+                       },
+                       {
+                           "fluid":  "tinkerscalibration:moltenprehnite",
+                           "amount":  600,
+                           "rate":  "gem"
+                       }
+                   ],
+    "time":  337,
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/corundum",
+                                                 "c:ore_rates/dense"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltenspinel"
+              },
+    "temperature":  905,
+    "output":  "tinkerscalibration:spinel"
+}

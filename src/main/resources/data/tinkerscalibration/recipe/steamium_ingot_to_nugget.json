@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "tinkerscalibration:steamium_ingot"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "id":  "tinkerscalibration:steamium_nugget"
+               }
+}

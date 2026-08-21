@@ -1,0 +1,14 @@
+{
+  "asset_name": "tinkerscalibration_mandite",
+  "description": {
+    "color": "#341D62",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.tinkerscalibration.mandite"
+      }
+    ]
+  },
+  "ingredient": "tinkerscalibration:mandite_ingot",
+  "item_model_index": 1.0
+}

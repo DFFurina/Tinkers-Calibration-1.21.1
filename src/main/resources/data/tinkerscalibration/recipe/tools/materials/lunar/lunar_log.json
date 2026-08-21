@@ -1,0 +1,10 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "tag":  "blue_skies:logs/lunar"
+                   },
+    "value":  4,
+    "needed":  1,
+    "material":  "tinkerscalibration:lunar",
+    "leftover":  "blue_skies:lunar_planks"
+}

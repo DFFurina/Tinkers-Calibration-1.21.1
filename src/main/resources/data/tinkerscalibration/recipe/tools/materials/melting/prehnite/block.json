@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:prehnite_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenprehnite",
+                   "amount":  400
+               },
+    "temperature":  690,
+    "time":  80
+}

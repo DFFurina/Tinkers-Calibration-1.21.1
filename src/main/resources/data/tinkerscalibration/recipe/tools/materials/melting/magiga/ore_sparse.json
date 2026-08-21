@@ -1,0 +1,38 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/magiga"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/sparse"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmagiga",
+                   "amount":  90
+               },
+    "temperature":  1240,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltensteamium",
+                           "amount":  90,
+                           "rate":  "metal"
+                       }
+                   ],
+    "time":  112,
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/magiga",
+                                                 "c:ore_rates/sparse"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

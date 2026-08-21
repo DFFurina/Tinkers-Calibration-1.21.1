@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:jazz_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenjazz",
+                   "amount":  810
+               },
+    "temperature":  1300,
+    "time":  300
+}

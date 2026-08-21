@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:horizonite",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhorizonite",
+                   "amount":  90
+               },
+    "temperature":  800
+}

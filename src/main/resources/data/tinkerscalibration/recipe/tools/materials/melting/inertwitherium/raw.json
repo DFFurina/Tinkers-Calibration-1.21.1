@@ -1,0 +1,13 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/inert_witherium"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:molteninertwitherium",
+                   "amount":  90
+               },
+    "temperature":  1130,
+    "time":  112
+}

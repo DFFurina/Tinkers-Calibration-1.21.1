@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "gobber2:gobber2_ore",
+          "type": "mantle:tag_empty"
+        },
+        "type": "neoforge:not"
+      }
+    ],
+    "type": "neoforge:or"
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 10,
+  "hidden": false
+}

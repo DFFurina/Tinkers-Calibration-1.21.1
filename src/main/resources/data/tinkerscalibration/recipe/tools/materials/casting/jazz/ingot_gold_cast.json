@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/multi_use/ingot"
+             },
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenjazz"
+              },
+    "result":  "tinkerscalibration:jazz_ingot",
+    "cooling_time":  100
+}

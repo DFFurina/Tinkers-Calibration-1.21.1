@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:stellarium_nugget"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:stellarium_ingot"
+               }
+}

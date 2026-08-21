@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:blasting",
+    "category":  "misc",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:raw_immersed_silver"
+                   },
+    "result":  {
+                   "id":  "tinkerscalibration:immersed_silver_ingot"
+               },
+    "experience":  1.5,
+    "cookingtime":  100
+}

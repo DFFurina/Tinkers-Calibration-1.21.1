@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "upgradednetherite:upgraded_netherite_sword",
+          "type": "mantle:tag_empty"
+        },
+        "type": "neoforge:not"
+      }
+    ],
+    "type": "neoforge:or"
+  },
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 10,
+  "hidden": false
+}

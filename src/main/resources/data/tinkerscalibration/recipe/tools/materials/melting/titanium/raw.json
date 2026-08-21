@@ -1,0 +1,19 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/titanium"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentitanium",
+                   "amount":  90
+               },
+    "temperature":  1350,
+    "time":  112,
+    "byproducts":  [
+                       {
+                           "fluid":  "tconstruct:molten_iron",
+                           "amount":  90
+                       }
+                   ]
+}

@@ -1,0 +1,17 @@
+{
+    "type":  "tinkers_thinking:drying_rack",
+    "ingredient":  [
+                       {
+                           "item":  "tinkerscalibration:wet_soft_noodles"
+                       }
+                   ],
+    "output":  {
+                   "item":  "tinkerscalibration:dry_cold_noodles"
+               },
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tinkers_thinking"
+                                }
+                            ]
+}

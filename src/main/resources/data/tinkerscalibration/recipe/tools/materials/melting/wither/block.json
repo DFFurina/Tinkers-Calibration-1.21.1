@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:witherium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenwitherium",
+                   "amount":  810
+               },
+    "temperature":  1490,
+    "time":  300
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  810,
+                  "fluid":  "tinkerscalibration:moltensteamium"
+              },
+    "result":  "tinkerscalibration:steamium_block",
+    "cooling_time":  275
+}

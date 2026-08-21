@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:blasting",
+    "category":  "misc",
+    "ingredient":  {
+                       "tag":  "c:ores/hothium"
+                   },
+    "result":  {
+                   "id":  "tinkerscalibration:hothium_ingot"
+               },
+    "experience":  1.5,
+    "cookingtime":  100
+}

@@ -1,0 +1,16 @@
+{
+    "type":  "tconstruct:part_builder",
+    "pattern":  "tinkerscalibration:bent_blade",
+    "pattern_item":  [
+                         {
+                             "tag":  "tconstruct:patterns/default"
+                         },
+                         {
+                             "item":  "tinkerscalibration:bent_blade_cast"
+                         }
+                     ],
+    "cost":  6,
+    "result":  {
+                   "item":  "tinkerscalibration:bent_blade"
+               }
+}

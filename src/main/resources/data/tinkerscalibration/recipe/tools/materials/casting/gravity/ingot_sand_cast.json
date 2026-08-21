@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/single_use/ingot"
+             },
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltengravity"
+              },
+    "result":  "tinkerscalibration:gravity_ingot",
+    "cooling_time":  160
+}

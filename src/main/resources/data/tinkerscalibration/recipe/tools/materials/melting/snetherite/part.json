@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:snetherite",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenspiderite",
+                   "amount":  90
+               },
+    "temperature":  1250
+}

@@ -1,0 +1,31 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:noble",
+        "level": 1
+      },{
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ],
+    "tconstruct:ranged": [
+      {
+        "name": "tinkerscalibration:noble",
+        "level": 1
+      },{
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:noble_armor",
+        "level": 1
+      },{
+        "level": 1,
+        "name": "tinkerscalibration:protogenesis"
+      }
+    ]
+  }
+}

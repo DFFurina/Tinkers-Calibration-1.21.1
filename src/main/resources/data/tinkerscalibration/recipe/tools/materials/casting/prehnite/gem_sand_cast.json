@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/single_use/gem"
+             },
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltenprehnite"
+              },
+    "result":  "tinkerscalibration:prehnite_crystal",
+    "cooling_time":  45
+}

@@ -1,0 +1,16 @@
+﻿{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tinkers_thinking"
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/desert_pyramid"
+    }
+  ],
+  "lootTable": "tinkerscalibration:chests/desert_pyramid",
+  "type": "tinkerscalibration:add_loot_table"
+}

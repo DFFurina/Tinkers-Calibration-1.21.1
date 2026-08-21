@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "blue_skies:charoite_gem",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltencharoite",
+                   "amount":  100
+               },
+    "temperature":  550
+}

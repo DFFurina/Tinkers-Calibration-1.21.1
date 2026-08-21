@@ -1,0 +1,14 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "tag":  "c:glass_panes"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:glass_silk"
+               }
+}

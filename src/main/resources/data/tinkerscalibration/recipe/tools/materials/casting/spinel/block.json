@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:casting_basin",
+    "fluid":  {
+                  "amount":  400,
+                  "fluid":  "tinkerscalibration:moltenspinel"
+              },
+    "result":  "tinkerscalibration:spinel_block",
+    "cooling_time":  275
+}

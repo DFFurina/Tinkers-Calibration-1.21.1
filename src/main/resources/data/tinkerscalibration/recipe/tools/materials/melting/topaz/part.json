@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:topaz",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentopaz",
+                   "amount":  100
+               },
+    "temperature":  700
+}

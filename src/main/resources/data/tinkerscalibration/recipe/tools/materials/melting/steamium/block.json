@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:steamium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltensteamium",
+                   "amount":  810
+               },
+    "temperature":  1100,
+    "time":  300
+}

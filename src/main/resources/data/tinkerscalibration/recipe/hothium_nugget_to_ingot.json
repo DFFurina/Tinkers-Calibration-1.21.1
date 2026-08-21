@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:hothium_nugget"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:hothium_ingot"
+               }
+}

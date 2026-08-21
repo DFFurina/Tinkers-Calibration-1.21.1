@@ -1,0 +1,13 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "item":  "minecraft:glass_bottle"
+             },
+    "cast_consumed":  true,
+    "fluid":  {
+                  "amount":  1000,
+                  "fluid":  "tinkerscalibration:dragonbreath"
+              },
+    "result":  "minecraft:dragon_breath",
+    "cooling_time":  100
+}

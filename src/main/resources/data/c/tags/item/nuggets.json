@@ -1,0 +1,27 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:nuggets/mangobberslime",
+    "#c:nuggets/mandite",
+    "#c:nuggets/moonsteel",
+    "#c:nuggets/alumite",
+    "#c:nuggets/gravity",
+    "#c:nuggets/lindsteel",
+    "#c:nuggets/fazelle",
+    "#c:nuggets/emperorslime",
+    "#c:nuggets/titanium",
+    "#c:nuggets/jazz",
+    "#c:nuggets/soulgold",
+    "#c:nuggets/hymon_scrap",
+    "#c:nuggets/immersed_silver",
+    "#c:nuggets/inert_witherium",
+    "#c:nuggets/halleium",
+    "#c:nuggets/hothium",
+    "#c:nuggets/magiga",
+    "#c:nuggets/tonium",
+    "#c:nuggets/oraclium",
+    "#c:nuggets/steamium",
+    "#c:nuggets/stellarium",
+    "#c:nuggets/witherium"
+  ]
+}

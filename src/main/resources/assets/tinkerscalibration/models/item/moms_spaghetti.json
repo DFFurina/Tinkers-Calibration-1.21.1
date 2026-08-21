@@ -1,0 +1,9 @@
+﻿{
+  "loader": "tconstruct:tool",
+  "parent": "neoforge:item/default-tool",
+  "textures": {
+    "tool": "tinkerscalibration:item/tool/moms_spaghetti",
+    "broken": "tinkerscalibration:item/tool/moms_spaghetti"
+  },
+  "modifier_maps": [ "tinkerscalibration:moms_spaghetti" ]
+}

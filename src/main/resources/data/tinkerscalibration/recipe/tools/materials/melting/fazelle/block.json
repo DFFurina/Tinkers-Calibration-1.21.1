@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:fazelle_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenfazelle",
+                   "amount":  810
+               },
+    "temperature":  1200,
+    "time":  280
+}

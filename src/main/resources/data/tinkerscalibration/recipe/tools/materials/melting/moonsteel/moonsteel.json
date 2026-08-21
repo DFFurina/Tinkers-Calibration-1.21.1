@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:moonsteel_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmoonsteel",
+                   "amount":  90
+               },
+    "temperature":  1450,
+    "time":  80
+}

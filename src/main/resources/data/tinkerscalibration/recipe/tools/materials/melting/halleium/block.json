@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:halleium_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhalleium",
+                   "amount":  810
+               },
+    "temperature":  1100,
+    "time":  300
+}

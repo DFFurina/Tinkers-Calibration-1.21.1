@@ -1,0 +1,27 @@
+{
+  "modifiers": {
+    "tconstruct:bane_of_sssss": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_bane_of_sssss",
+    "tconstruct:diamond": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_diamond",
+    "tconstruct:emerald": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_emerald",
+    "tconstruct:fiery": {
+      "luminosity": 10,
+      "texture": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_fiery"
+    },
+    "tconstruct:glowing": {
+      "luminosity": 15,
+      "texture": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_glowing"
+    },
+    "tconstruct:haste": {
+      "luminosity": 7,
+      "texture": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_haste"
+    },
+    "tconstruct:knockback": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_knockback",
+    "tconstruct:luck": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_luck",
+    "tconstruct:necrotic": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_necrotic",
+    "tconstruct:reinforced": "tinkerscalibration:item/tool/cutlass/modifiers/mod_reinforced",
+    "tconstruct:sharpness": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_sharpness",
+    "tconstruct:silky": "tinkerscalibration:item/tool/cutlass/modifiers/tconstruct_silky",
+    "tconstruct:smite": "tinkerscalibration:item/tool/cutlass/modifiers/mod_smite",
+    "tconstruct:soulbound": "tinkerscalibration:item/tool/cutlass/modifiers/mod_soulbound"
+  }
+}

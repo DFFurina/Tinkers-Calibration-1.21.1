@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#blue_skies:logs/lunar",
+    "#blue_skies:logs/cherry",
+    "#blue_skies:logs/starlit",
+    "#blue_skies:logs/maple"
+  ]
+}

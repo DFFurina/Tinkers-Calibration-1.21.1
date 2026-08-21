@@ -1,0 +1,26 @@
+﻿{
+  "loader": "tconstruct:tool",
+  "parent": "neoforge:item/default-tool",
+  "textures": {
+    "head":         "tinkerscalibration:item/tool/cutlass/blade",
+    "broken_head":  "tinkerscalibration:item/tool/cutlass/broken_blade",
+    "handle":       "tinkerscalibration:item/tool/cutlass/handle",
+    "back":         "tinkerscalibration:item/tool/cutlass/guard"
+  },
+  "modifier_maps": [
+    "tinkerscalibration:cutlass"
+  ],
+  "parts": [
+    { "name": "handle",  "index": 1 },
+    { "name": "head",    "index": 0, "broken": "broken_head" },
+    { "name": "back", "index": 2 }
+  ],
+  "overrides": [
+  {
+    "predicate": {
+      "tconstruct:charging": 2
+    },
+    "model": "tinkerscalibration:item/blocking/cutlass"
+  }
+]
+}

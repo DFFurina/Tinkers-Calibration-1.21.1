@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  90,
+                       "fluid":  "tinkerscalibration:moltenmagiga"
+                   },
+                   {
+                       "amount":  90,
+                       "fluid":  "tinkerscalibration:moltentonium"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenoraclium",
+                   "amount":  180
+               },
+    "temperature":  1440
+}

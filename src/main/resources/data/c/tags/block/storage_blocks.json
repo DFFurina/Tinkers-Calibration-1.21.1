@@ -1,0 +1,28 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#c:storage_blocks/lindsteel",
+    "#c:storage_blocks/fazelle",
+    "#c:storage_blocks/emperorslime",
+    "#c:storage_blocks/immersed_silver",
+    "#c:storage_blocks/inert_witherium",
+    "#c:storage_blocks/halleium",
+    "#c:storage_blocks/hothium",
+    "#c:storage_blocks/magiga",
+    "#c:storage_blocks/tonium",
+    "#c:storage_blocks/oraclium",
+    "#c:storage_blocks/steamium",
+    "#c:storage_blocks/stellarium",
+    "#c:storage_blocks/witherium",
+    "#c:storage_blocks/corundum",
+    "#c:storage_blocks/nitre",
+    "#c:storage_blocks/spinel",
+    "#c:storage_blocks/talcum",
+    "#c:storage_blocks/tourmaline",
+    "#c:storage_blocks/vibrating_crystal",
+    "#c:storage_blocks/prehnite",
+    "#c:storage_blocks/iceland_spar",
+    "#c:storage_blocks/lizanite",
+    "#c:storage_blocks/topaz"
+  ]
+}

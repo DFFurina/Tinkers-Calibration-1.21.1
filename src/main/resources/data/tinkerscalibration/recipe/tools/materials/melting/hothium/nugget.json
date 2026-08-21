@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:hothium_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhothium",
+                   "amount":  10
+               },
+    "temperature":  1070,
+    "time":  10
+}

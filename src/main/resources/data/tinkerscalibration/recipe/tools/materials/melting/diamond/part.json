@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:diamond",
+    "result":  {
+                   "fluid":  "tconstruct:molten_diamond",
+                   "amount":  100
+               },
+    "temperature":  450
+}

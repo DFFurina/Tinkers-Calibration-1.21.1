@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:lindsteel_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenlindsteel",
+                   "amount":  810
+               },
+    "temperature":  1200,
+    "time":  420
+}

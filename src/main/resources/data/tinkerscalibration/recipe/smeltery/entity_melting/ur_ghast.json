@@ -1,0 +1,17 @@
+{
+    "type":  "tconstruct:entity_melting",
+    "entity":  {
+                   "type":  "twilightforest:ur_ghast"
+               },
+    "result":  {
+                   "fluid":  "tconstruct:fiery_liquid",
+                   "amount":  50
+               },
+    "damage":  2,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "twilightforest",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

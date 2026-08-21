@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:witherium_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenwitherium",
+                   "amount":  90
+               },
+    "temperature":  1490,
+    "time":  50
+}

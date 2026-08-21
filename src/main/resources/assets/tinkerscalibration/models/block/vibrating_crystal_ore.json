@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all":   "tinkerscalibration:block/vibrating_crystal_ore"
+  }
+}

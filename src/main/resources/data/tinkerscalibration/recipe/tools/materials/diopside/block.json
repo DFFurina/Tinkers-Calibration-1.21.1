@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "blue_skies:diopside_block"
+                   },
+    "value":  9,
+    "needed":  1,
+    "material":  "tinkerscalibration:diopside",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "blue_skies",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

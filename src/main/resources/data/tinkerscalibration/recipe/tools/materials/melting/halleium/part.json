@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:halleium",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhalleium",
+                   "amount":  90
+               },
+    "temperature":  1100
+}

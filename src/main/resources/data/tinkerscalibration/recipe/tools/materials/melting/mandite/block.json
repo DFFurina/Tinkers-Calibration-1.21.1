@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:mandite_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmandite",
+                   "amount":  810
+               },
+    "temperature":  1450,
+    "time":  300
+}

@@ -1,0 +1,8 @@
+﻿{
+  "loader": "tconstruct:material",
+  "parent": "neoforge:item/default",
+  "textures": {
+    "texture": "tinkerscalibration:item/tool/parts/bent_blade"
+  },
+  "offset": [0, 0]
+}

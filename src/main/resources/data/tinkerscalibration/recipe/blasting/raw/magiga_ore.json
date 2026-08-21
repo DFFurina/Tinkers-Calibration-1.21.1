@@ -1,0 +1,12 @@
+{
+    "type":  "minecraft:blasting",
+    "category":  "misc",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:raw_magiga"
+                   },
+    "result":  {
+                   "id":  "tinkerscalibration:magiga_ingot"
+               },
+    "experience":  1.5,
+    "cookingtime":  100
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:immersed_silver_ingot"
+                   },
+    "value":  1,
+    "needed":  1,
+    "material":  "tinkerscalibration:immersedsilver"
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:inertwitherium",
+    "result":  {
+                   "fluid":  "tinkerscalibration:molteninertwitherium",
+                   "amount":  90
+               },
+    "temperature":  1130
+}

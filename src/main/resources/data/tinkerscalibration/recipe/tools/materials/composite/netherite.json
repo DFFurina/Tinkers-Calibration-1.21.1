@@ -1,0 +1,10 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "input":  "tinkerscalibration:diamond",
+    "fluid":  {
+                  "tag":  "tconstruct:molten_netherite",
+                  "amount":  30
+              },
+    "temperature":  1200,
+    "output":  "tinkerscalibration:netherite"
+}

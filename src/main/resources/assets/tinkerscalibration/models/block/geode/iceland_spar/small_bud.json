@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "cutout",
+  "textures": {
+    "cross": "tinkerscalibration:block/geode/iceland_spar/small_bud"
+  }
+}

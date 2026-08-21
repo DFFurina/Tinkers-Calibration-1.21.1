@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "mna:ingots/vinteum",
+          "type": "mantle:tag_empty"
+        },
+        "type": "neoforge:not"
+      }
+    ],
+    "type": "neoforge:or"
+  },
+  "craftable": false,
+  "tier": 2,
+  "sortOrder": 5,
+  "hidden": false
+}

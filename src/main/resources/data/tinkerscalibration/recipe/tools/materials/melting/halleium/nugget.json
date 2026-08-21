@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:halleium_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenhalleium",
+                   "amount":  10
+               },
+    "temperature":  1100,
+    "time":  10
+}

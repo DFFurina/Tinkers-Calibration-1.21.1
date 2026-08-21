@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XAX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "minecraft:moss_block"
+                      },
+                "A":  {
+                          "item":  "minecraft:snowball"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:moss_ball"
+               }
+}

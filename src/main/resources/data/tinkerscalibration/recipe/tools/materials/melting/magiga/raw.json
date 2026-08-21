@@ -1,0 +1,20 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/magiga"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmagiga",
+                   "amount":  90
+               },
+    "temperature":  1240,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltensteamium",
+                           "amount":  90,
+                           "rate":  "metal"
+                       }
+                   ],
+    "time":  112
+}

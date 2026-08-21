@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.james.tinkerscalibration.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "StationScreenMixin"
+  ],
+  "minVersion": "0.8"
+}

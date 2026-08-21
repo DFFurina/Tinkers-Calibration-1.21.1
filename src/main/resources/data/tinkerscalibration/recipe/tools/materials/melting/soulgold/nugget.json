@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:soulgold_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltensoulgold",
+                   "amount":  10
+               },
+    "temperature":  1000,
+    "time":  150
+}

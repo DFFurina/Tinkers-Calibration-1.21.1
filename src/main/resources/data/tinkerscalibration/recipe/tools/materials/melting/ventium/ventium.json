@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:ventium_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenventium",
+                   "amount":  90
+               },
+    "temperature":  800,
+    "time":  70
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:gravity",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltengravity",
+                   "amount":  90
+               },
+    "temperature":  1450
+}

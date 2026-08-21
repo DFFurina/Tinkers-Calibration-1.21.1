@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:halleium_nugget"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:halleium_ingot"
+               }
+}

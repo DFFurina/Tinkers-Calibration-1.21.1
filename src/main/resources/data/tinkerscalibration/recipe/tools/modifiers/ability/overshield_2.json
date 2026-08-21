@@ -1,0 +1,22 @@
+{
+    "type":  "tconstruct:modifier",
+    "inputs":  [
+                   {
+                       "tag":  "c:slimeballs",
+                       "amount_needed":  10
+                   },
+                   {
+                       "item":  "tconstruct:slimesteel_ingot"
+                   },
+                   {
+                       "item":  "tconstruct:slimesteel_reinforcement",
+                       "amount_needed":  5
+                   }
+               ],
+    "tools":  {
+                  "tag":  "tconstruct:modifiable/armor/chestplate"
+              },
+    "allow_crystal":  false,
+    "result":  "tinkerscalibration:overshield",
+    "level":  2
+}

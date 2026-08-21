@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:jazz_ingot"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:jazz_block"
+               }
+}

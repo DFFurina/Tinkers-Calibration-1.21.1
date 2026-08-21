@@ -1,0 +1,14 @@
+{
+  "asset_name": "tinkerscalibration_emperorslime",
+  "description": {
+    "color": "#ec7a00",
+    "translate": "trim_material.tconstruct.format",
+    "with": [
+      {
+        "translate": "material.tinkerscalibration.emperorslime"
+      }
+    ]
+  },
+  "ingredient": "tinkerscalibration:emperorslime_ingot",
+  "item_model_index": 1.0
+}

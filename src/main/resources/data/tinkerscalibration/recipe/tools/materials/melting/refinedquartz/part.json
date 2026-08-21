@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:refinedquartz",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenrefinedquartz",
+                   "amount":  100
+               },
+    "temperature":  1200
+}

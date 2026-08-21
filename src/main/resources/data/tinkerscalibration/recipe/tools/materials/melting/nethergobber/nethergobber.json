@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "gobber2:gobber2_ingot_nether"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltennethergobber",
+                   "amount":  90
+               },
+    "temperature":  950,
+    "time":  75,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "gobber2",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

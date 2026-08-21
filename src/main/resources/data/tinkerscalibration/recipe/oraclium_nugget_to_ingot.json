@@ -1,0 +1,16 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "XXX",
+                    "XXX",
+                    "XXX"
+                ],
+    "key":  {
+                "X":  {
+                          "item":  "tinkerscalibration:oraclium_nugget"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:oraclium_ingot"
+               }
+}

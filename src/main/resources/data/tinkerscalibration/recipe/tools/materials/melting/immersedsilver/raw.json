@@ -1,0 +1,13 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/immersed_silver"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenimmersedsilver",
+                   "amount":  90
+               },
+    "temperature":  1090,
+    "time":  112
+}

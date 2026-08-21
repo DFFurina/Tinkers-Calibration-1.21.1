@@ -1,0 +1,7 @@
+﻿{
+  "loader": "tconstruct:material",
+  "parent": "neoforge:item/default",
+  "textures": {
+    "texture": "tinkerscalibration:item/tool/parts/extra_plate"
+  }
+}

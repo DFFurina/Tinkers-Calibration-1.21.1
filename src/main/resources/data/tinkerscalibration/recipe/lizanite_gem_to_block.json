@@ -1,0 +1,15 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "##",
+                    "##"
+                ],
+    "key":  {
+                "#":  {
+                          "item":  "tinkerscalibration:lizanite_crystal"
+                      }
+            },
+    "result":  {
+                   "id":  "tinkerscalibration:lizanite_block"
+               }
+}

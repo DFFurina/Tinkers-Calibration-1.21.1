@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/multi_use/gem"
+             },
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tinkerscalibration:moltencharoite"
+              },
+    "result":  "blue_skies:charoite",
+    "cooling_time":  45
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "tinkerscalibration:moltenvibratingcrystal",
+    "tinkerscalibration:moltencorundum",
+    "tinkerscalibration:moltenprehnite",
+    "tinkerscalibration:moltenlizanite",
+    "tinkerscalibration:moltenicelandspar",
+    "tinkerscalibration:moltentopaz",
+    "tinkerscalibration:moltencharoite"
+  ]
+}

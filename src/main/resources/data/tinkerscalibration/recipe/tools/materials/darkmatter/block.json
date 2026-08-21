@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:material",
+    "ingredient":  {
+                       "item":  "projecte:dark_matter"
+                   },
+    "value":  4,
+    "needed":  1,
+    "material":  "tinkerscalibration:darkmatter",
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "projecte",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

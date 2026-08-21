@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "blue_skies:charoite_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltencharoite",
+                   "amount":  900
+               },
+    "temperature":  900,
+    "time":  80
+}

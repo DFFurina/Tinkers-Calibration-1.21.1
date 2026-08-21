@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:gravity_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltengravity",
+                   "amount":  90
+               },
+    "temperature":  1450,
+    "time":  80
+}

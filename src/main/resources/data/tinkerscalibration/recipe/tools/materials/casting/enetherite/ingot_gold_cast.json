@@ -1,0 +1,18 @@
+{
+    "type":  "tconstruct:casting_table",
+    "cast":  {
+                 "tag":  "tconstruct:casts/multi_use/ingot"
+             },
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenenderite"
+              },
+    "result":  "upgradednetherite:ender_upgraded_netherite_ingot",
+    "cooling_time":  74,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "upgradednetherite",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

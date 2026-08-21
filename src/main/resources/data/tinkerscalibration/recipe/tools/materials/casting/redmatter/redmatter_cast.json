@@ -1,0 +1,15 @@
+{
+    "type":  "tconstruct:casting_table",
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenredmatter"
+              },
+    "result":  "projecte:red_matter",
+    "cooling_time":  175,
+    "neoforge:conditions":  [
+                                {
+                                    "modid":  "projecte",
+                                    "type":  "neoforge:mod_loaded"
+                                }
+                            ]
+}

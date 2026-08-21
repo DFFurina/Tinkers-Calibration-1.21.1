@@ -1,0 +1,20 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/tonium"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  90
+               },
+    "temperature":  1220,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltenhalleium",
+                           "amount":  90,
+                           "rate":  "metal"
+                       }
+                   ],
+    "time":  112
+}

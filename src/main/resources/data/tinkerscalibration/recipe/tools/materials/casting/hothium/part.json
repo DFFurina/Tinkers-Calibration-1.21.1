@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_fluid",
+    "fluid":  {
+                  "amount":  90,
+                  "fluid":  "tinkerscalibration:moltenhothium"
+              },
+    "temperature":  1070,
+    "output":  "tinkerscalibration:hothium"
+}

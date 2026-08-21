@@ -1,0 +1,38 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "type":  "neoforge:intersection",
+                       "children":  [
+                                        {
+                                            "tag":  "c:ores/tonium"
+                                        },
+                                        {
+                                            "tag":  "c:ore_rates/sparse"
+                                        }
+                                    ]
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltentonium",
+                   "amount":  90
+               },
+    "temperature":  1220,
+    "byproducts":  [
+                       {
+                           "fluid":  "tinkerscalibration:moltenhalleium",
+                           "amount":  90,
+                           "rate":  "metal"
+                       }
+                   ],
+    "time":  112,
+    "neoforge:conditions":  [
+                                {
+                                    "registry":  "minecraft:item",
+                                    "tags":  [
+                                                 "c:ores/tonium",
+                                                 "c:ore_rates/sparse"
+                                             ],
+                                    "type":  "tconstruct:tag_intersection_present"
+                                }
+                            ]
+}

@@ -1,0 +1,9 @@
+{
+    "type":  "tconstruct:material_melting",
+    "input":  "tinkerscalibration:soulgold",
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltensoulgold",
+                   "amount":  90
+               },
+    "temperature":  1000
+}

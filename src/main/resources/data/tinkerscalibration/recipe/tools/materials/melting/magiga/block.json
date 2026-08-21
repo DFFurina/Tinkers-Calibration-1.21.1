@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:magiga_block"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmagiga",
+                   "amount":  810
+               },
+    "temperature":  1240,
+    "time":  300
+}

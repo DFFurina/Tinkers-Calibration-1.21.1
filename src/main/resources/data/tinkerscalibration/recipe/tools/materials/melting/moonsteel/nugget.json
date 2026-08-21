@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:moonsteel_nugget"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmoonsteel",
+                   "amount":  10
+               },
+    "temperature":  1450,
+    "time":  15
+}

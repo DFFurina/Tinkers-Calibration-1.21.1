@@ -1,0 +1,21 @@
+{
+    "type":  "tconstruct:modifier",
+    "inputs":  [
+                   {
+                       "item":  "minecraft:respawn_anchor"
+                   }
+               ],
+    "tools":  [
+                  {
+                      "tag":  "tconstruct:modifiable/armor"
+                  },
+                  {
+                      "tag":  "tconstruct:modifiable/held"
+                  }
+              ],
+    "allow_crystal":  true,
+    "result":  "tinkerscalibration:defense_respawn",
+    "level":  {
+                  "max":  1
+              }
+}

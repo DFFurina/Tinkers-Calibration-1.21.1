@@ -1,0 +1,13 @@
+{
+    "type":  "tconstruct:ore_melting",
+    "rate":  "metal",
+    "ingredient":  {
+                       "tag":  "c:raw_materials/stellarium"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenstellarium",
+                   "amount":  90
+               },
+    "temperature":  1260,
+    "time":  112
+}

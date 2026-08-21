@@ -1,0 +1,22 @@
+{
+    "type":  "tconstruct:alloy",
+    "inputs":  [
+                   {
+                       "amount":  90,
+                       "fluid":  "tconstruct:molten_manyullyn"
+                   },
+                   {
+                       "amount":  90,
+                       "fluid":  "tconstruct:molten_hepatizon"
+                   },
+                   {
+                       "amount":  30,
+                       "fluid":  "tconstruct:blazing_blood"
+                   }
+               ],
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenmandite",
+                   "amount":  180
+               },
+    "temperature":  1450
+}

@@ -1,0 +1,12 @@
+{
+    "type":  "tconstruct:melting",
+    "ingredient":  {
+                       "item":  "tinkerscalibration:alumite_ingot"
+                   },
+    "result":  {
+                   "fluid":  "tinkerscalibration:moltenalumite",
+                   "amount":  90
+               },
+    "temperature":  925,
+    "time":  60
+}

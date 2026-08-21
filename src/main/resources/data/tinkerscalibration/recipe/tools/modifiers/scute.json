@@ -1,0 +1,24 @@
+{
+    "type":  "tconstruct:modifier",
+    "inputs":  [
+                   {
+                       "item":  "minecraft:turtle_scute"
+                   },
+                   {
+                       "item":  "minecraft:seagrass"
+                   }
+               ],
+    "tools":  [
+                  {
+                      "tag":  "tconstruct:modifiable/armor"
+                  },
+                  {
+                      "tag":  "tconstruct:modifiable/held"
+                  }
+              ],
+    "allow_crystal":  true,
+    "result":  "tinkerscalibration:scute",
+    "level":  {
+                  "max":  1
+              }
+}
