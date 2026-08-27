@@ -42,6 +42,10 @@
 - Twilight Forest：https://github.com/TeamTwilight/twilightforest
 - ProjectE：https://github.com/sinkillerj/ProjectE
 
+## 更新日志
+
+见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 许可证
 
 本项目遵循仓库内 [LICENSE](LICENSE) 文件所列的 MIT 许可证。
