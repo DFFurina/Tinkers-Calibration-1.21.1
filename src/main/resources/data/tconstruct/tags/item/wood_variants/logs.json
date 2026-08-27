@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "#blue_skies:logs/lunar",
-    "#blue_skies:logs/cherry",
-    "#blue_skies:logs/starlit",
-    "#blue_skies:logs/maple"
+    {
+      "id": "#blue_skies:logs/lunar",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:logs/cherry",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:logs/starlit",
+      "required": false
+    },
+    {
+      "id": "#blue_skies:logs/maple",
+      "required": false
+    }
   ]
 }

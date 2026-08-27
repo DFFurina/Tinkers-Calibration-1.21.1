@@ -1,7 +1,7 @@
 {
     "type":  "tconstruct:casting_table",
     "cast":  {
-                 "item":  "tinkerscalibration:wheat_rod"
+                 "item":  "tinkerscalibration:hard_wheat_rod"
              },
     "cast_consumed":  true,
     "fluid":  {

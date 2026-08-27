@@ -78,4 +78,8 @@ public class TinkersCalibrationWorldFeatures extends TinkersCalibrationModule{
     {
 
     }
+
+    /** Calling this forces the static initializer to run, registering the geode blocks and items */
+    public static void preload() {
+    }
 }

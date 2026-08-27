@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "blue_skies:lunar_planks",
-    "blue_skies:cherry_planks",
-    "blue_skies:starlit_planks",
-    "blue_skies:maple_planks"
+    {
+      "id": "blue_skies:lunar_planks",
+      "required": false
+    },
+    {
+      "id": "blue_skies:cherry_planks",
+      "required": false
+    },
+    {
+      "id": "blue_skies:starlit_planks",
+      "required": false
+    },
+    {
+      "id": "blue_skies:maple_planks",
+      "required": false
+    }
   ]
 }

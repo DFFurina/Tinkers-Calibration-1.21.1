@@ -6,7 +6,6 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -73,8 +72,8 @@ public class RangedDrawHud {
                     if (tool.hasTag(TinkerTags.Items.RANGED) && !tool.isBroken()) {
                         ModDataNBT persistentData = tool.getPersistentData();
                         RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
+                        RenderSystem.enableBlend();
                         RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.ONE_MINUS_DST_COLOR, GlStateManager.DestFactor.ONE_MINUS_SRC_COLOR, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
-                        RenderSystem.setShader(GameRenderer::getRendertypeLinesShader);
                         if (!persistentData.contains(KEY_DRAWTIME, 3)) {
                             guiGraphics.blit(NO_CHARGE, x - 4, height / 2 - 4, 0, 0, 8, 8, 8, 8);
                         } else {
@@ -148,7 +147,10 @@ public class RangedDrawHud {
                         event.setCanceled(true);
                         GlStateManager._enableCull();
                         GlStateManager._depthMask(true);
-                        RenderSystem.disableBlend();
+                        // restore the default gui render state, otherwise later gui layers (e.g. the hotbar) render washed out
+                        RenderSystem.enableBlend();
+                        RenderSystem.defaultBlendFunc();
+                        RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
                     }
                 }
             }

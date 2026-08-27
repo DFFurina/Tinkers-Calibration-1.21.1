@@ -1,9 +1,0 @@
-{
-    "type":  "tconstruct:material",
-    "ingredient":  {
-                       "item":  "tinkerscalibration:moonsteel_block"
-                   },
-    "value":  9,
-    "needed":  1,
-    "material":  "tinkerscalibration:moonsteel"
-}

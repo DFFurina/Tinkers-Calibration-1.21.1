@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "upgradednetherite"
+                                }
+                            ],
     "type":  "tconstruct:melting",
     "ingredient":  {
                        "item":  "upgradednetherite:gold_upgraded_netherite_ingot"

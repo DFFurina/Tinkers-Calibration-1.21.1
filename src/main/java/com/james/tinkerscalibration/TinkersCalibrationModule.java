@@ -14,6 +14,9 @@ public abstract class TinkersCalibrationModule {
     protected static final BlockDeferredRegisterExtension BLOCKS = new BlockDeferredRegisterExtension(TinkersCalibration.MODID);
 
     public static void initRegisters(IEventBus bus) {
+        // force static initialization of module subclasses so their deferred register entries
+        // are added before the registry events fire (otherwise geode blocks/items are never registered)
+        TinkersCalibrationWorldFeatures.preload();
         BLOCKS.register(bus);
     }
 }

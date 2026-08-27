@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "blue_skies"
+                                }
+                            ],
     "type":  "tconstruct:melting",
     "ingredient":  {
                        "item":  "blue_skies:moonstone_shard"

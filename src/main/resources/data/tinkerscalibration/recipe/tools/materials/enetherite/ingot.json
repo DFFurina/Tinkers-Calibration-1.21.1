@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "upgradednetherite"
+                                }
+                            ],
     "type":  "tconstruct:material",
     "ingredient":  {
                        "item":  "upgradednetherite:ender_upgraded_netherite_ingot"
