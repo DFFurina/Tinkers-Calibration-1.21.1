@@ -19,7 +19,6 @@ import slimeknights.mantle.registration.RegistryObject;
 import slimeknights.mantle.client.TooltipKey;
 import slimeknights.tconstruct.common.TinkerEffect;
 import slimeknights.tconstruct.common.TinkerTags;
-import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
@@ -34,14 +33,12 @@ import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
-import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.library.tools.stat.FloatToolStat;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.List;
-import java.util.UUID;
 import java.util.function.BiConsumer;
 
 public class BloodThirstyModifier extends Modifier implements MeleeHitModifierHook, ProjectileLaunchModifierHook, ConditionalStatModifierHook, InventoryTickModifierHook, ModifierRemovalHook, AttributesModifierHook, TooltipModifierHook {
@@ -62,7 +59,11 @@ public class BloodThirstyModifier extends Modifier implements MeleeHitModifierHo
     /**
      * Gets the bonus for the modifier
      */
-    private static float getBonus(LivingEntity living, RegistryObject<? extends TinkerEffect> effect, int level, float scale) {
+    private static float getBonus(@Nullable LivingEntity living, RegistryObject<? extends TinkerEffect> effect, int level, float scale) {
+        // 25% boost per level at max; without an entity (e.g. creative search tooltips) there is no effect to read
+        if (living == null) {
+            return 0;
+        }
         int effectLevel = effect.get().getLevel(living) + 1;
         return level * effectLevel / scale;
     }
@@ -120,12 +121,11 @@ public class BloodThirstyModifier extends Modifier implements MeleeHitModifierHo
     @Override
     public void addTooltip(IToolStackView tool, ModifierEntry modifier, @Nullable Player player, List<Component> tooltip, slimeknights.mantle.client.TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
         boolean harvest = tool.hasTag(TinkerTags.Items.HARVEST);
-        if (harvest || tool.hasTag(TinkerTags.Items.RANGED)) {
+        // player is null when the tooltip is built without an entity (creative search, recipe viewers)
+        if (player != null && tooltipKey == TooltipKey.SHIFT && (harvest || tool.hasTag(TinkerTags.Items.RANGED))) {
             float bonus = getBonus(player, Utils.bloodthirstyEffect, modifier.getLevel(), 16f);
-            if (player != null && tooltipKey == TooltipKey.SHIFT) {
-                if(!harvest){
-                    TooltipModifierHook.addStatBoost(tool, modifier.getModifier(), ToolStats.VELOCITY, TinkerTags.Items.RANGED, bonus, tooltip);
-                }
+            if (!harvest) {
+                TooltipModifierHook.addStatBoost(tool, modifier.getModifier(), ToolStats.VELOCITY, TinkerTags.Items.RANGED, bonus, tooltip);
             }
         }
     }

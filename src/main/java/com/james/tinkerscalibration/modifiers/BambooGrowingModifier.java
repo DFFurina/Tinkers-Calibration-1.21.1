@@ -1,5 +1,6 @@
 package com.james.tinkerscalibration.modifiers;
 
+import com.james.tinkerscalibration.library.ToolRepairHelper;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
@@ -10,7 +11,6 @@ import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
 import slimeknights.tconstruct.library.modifiers.hook.interaction.InventoryTickModifierHook;
 import slimeknights.tconstruct.library.module.ModuleHookMap;
-import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
 import javax.annotation.Nonnull;
@@ -35,7 +35,8 @@ public class BambooGrowingModifier extends Modifier implements InventoryTickModi
         if (!world.isClientSide && holder.tickCount % 8 == 0 && holder.getUseItem() != stack && isSelected) {
             int bonus = getBonus(holder);
             if (bonus > 0 && RANDOM.nextFloat() < (modifier.getLevel() * 0.25) && !tool.isBroken()) {
-                ToolDamageUtil.repair(tool, bonus);
+                // 自动修复走兼容封装，避免 More Resilient Tinkers 将其计入永久耐久损耗
+                ToolRepairHelper.repair(tool, bonus);
             }
         }
     }

@@ -2,10 +2,7 @@ package com.james.tinkerscalibration.modifiers;
 
 import com.google.common.base.MoreObjects;
 import com.james.tinkerscalibration.TinkersCalibration;
-import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextColor;
@@ -166,26 +163,4 @@ public class GlobalTravellerModifier extends Modifier implements TooltipModifier
             }
         }
     }
-}/*@Override
-public void addTooltip(IToolStackView tool, ModifierEntry modifier, @Nullable Player player, List<Component> tooltip, slimeknights.mantle.client.TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
-    ModDataNBT persistentData = tool.getPersistentData();
-    if (Minecraft.getInstance().getSingleplayerServer() != null) {
-        if (persistentData.contains(X, 3) && persistentData.contains(Y, 3) && persistentData.contains(Z, 3)) {
-            BlockPos pos = new BlockPos(persistentData.getInt(X), persistentData.getInt(Y), persistentData.getInt(Z));
-            ServerLevel level = Minecraft.getInstance().getSingleplayerServer().getLevel(ResourceKey.create(Registry.DIMENSION_REGISTRY, ResourceLocation.fromNamespaceAndPath(persistentData.getString(WORLD))));
-            if (level != null) {
-                BlockEntity block = level.getBlockEntity(pos);
-                tooltip.add(Component.translatable(MoreObjects.toStringHelper("").add("X", pos.getX()).add(" Y", pos.getY()).add(" Z", pos.getZ()).toString()).append(" ").append(persistentData.getString(WORLD)).append(" ").append(GLOBAL_POS).withStyle(style -> style.withColor(TextColor.fromRgb(0xE29AEC))));
-                if (block != null) { // && block.getCapability(ITEM_HANDLER_CAPABILITY).isPresent()
-                    tooltip.add(Component.translatable("modifier.tinkerscalibration.global.valid").withStyle(style -> style.withColor(TextColor.fromRgb(0xE29AEC))));
-                } else {
-                    tooltip.add(Component.translatable("modifier.tinkerscalibration.global.invalid").withStyle(style -> style.withColor(TextColor.fromRgb(0xE29AEC))));
-                }
-            }
-        }
-        else {
-            tooltip.add(Component.translatable("modifier.tinkerscalibration.global.none").withStyle(style -> style.withColor(TextColor.fromRgb(0xE29AEC))));
-        }
-    }
 }
-*/

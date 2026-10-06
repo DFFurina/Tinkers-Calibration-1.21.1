@@ -1,6 +1,7 @@
 package com.james.tinkerscalibration.modifiers.armor;
 
 import com.james.tinkerscalibration.TinkersCalibrationArmorModifiers;
+import com.james.tinkerscalibration.library.ToolRepairHelper;
 
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -14,7 +15,6 @@ import slimeknights.tconstruct.library.modifiers.modules.technical.ArmorLevelMod
 import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.capability.TinkerDataCapability;
 import slimeknights.tconstruct.library.tools.context.EquipmentContext;
-import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
 
 public class ArmorBambooGrowingModifier extends Modifier {
@@ -39,24 +39,25 @@ public class ArmorBambooGrowingModifier extends Modifier {
                         int level = holder.get(BAMBOO, 0);
                         if (level > 0) {
                             int bonus = getBonus(living);
+                            // 自动修复走兼容封装，避免 More Resilient Tinkers 将每 8 tick 一次的自动修复计入永久耐久损耗
                             if (context.getToolInSlot(EquipmentSlot.LEGS) instanceof ToolStack tool) {
                                 if (bonus > 0 && RANDOM.nextFloat() < tool.getModifierLevel(TinkersCalibrationArmorModifiers.bamboo_growing.get()) * 0.25f && !tool.isBroken()) {
-                                    ToolDamageUtil.repair(tool, bonus);
+                                    ToolRepairHelper.repair(tool, bonus);
                                 }
                             }
                             if (context.getToolInSlot(EquipmentSlot.HEAD) instanceof ToolStack tool) {
                                 if (bonus > 0 && RANDOM.nextFloat() < tool.getModifierLevel(TinkersCalibrationArmorModifiers.bamboo_growing.get()) * 0.25f && !tool.isBroken()) {
-                                    ToolDamageUtil.repair(tool, bonus);
+                                    ToolRepairHelper.repair(tool, bonus);
                                 }
                             }
                             if (context.getToolInSlot(EquipmentSlot.CHEST) instanceof ToolStack tool) {
                                 if (bonus > 0 && RANDOM.nextFloat() < tool.getModifierLevel(TinkersCalibrationArmorModifiers.bamboo_growing.get()) * 0.25f && !tool.isBroken()) {
-                                    ToolDamageUtil.repair(tool, bonus);
+                                    ToolRepairHelper.repair(tool, bonus);
                                 }
                             }
                             if (context.getToolInSlot(EquipmentSlot.FEET) instanceof ToolStack tool) {
                                 if (bonus > 0 && RANDOM.nextFloat() < tool.getModifierLevel(TinkersCalibrationArmorModifiers.bamboo_growing.get()) * 0.25f && !tool.isBroken()) {
-                                    ToolDamageUtil.repair(tool, bonus);
+                                    ToolRepairHelper.repair(tool, bonus);
                                 }
                             }
 

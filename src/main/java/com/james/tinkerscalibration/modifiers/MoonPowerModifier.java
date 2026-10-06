@@ -1,5 +1,6 @@
 package com.james.tinkerscalibration.modifiers;
 
+import com.james.tinkerscalibration.library.ToolRepairHelper;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -15,7 +16,6 @@ import slimeknights.tconstruct.library.modifiers.hook.interaction.InventoryTickM
 import slimeknights.tconstruct.library.modifiers.hook.ranged.ProjectileHitModifierHook;
 import slimeknights.tconstruct.library.module.ModuleHookMap;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
-import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.nbt.ModifierNBT;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
@@ -28,7 +28,8 @@ public class MoonPowerModifier extends Modifier implements InventoryTickModifier
     public void onInventoryTick(@Nonnull IToolStackView tool, ModifierEntry modifier, @Nonnull Level world, @Nonnull LivingEntity holder, int itemSlot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
         if (!world.isClientSide && holder.tickCount % 8 == 0 && holder.getUseItem() != stack && isSelected) {
             if (world.isNight() && RANDOM.nextFloat() < (modifier.getLevel() * 0.15) && !tool.isBroken() && world.getMoonPhase() != 5) {
-                ToolDamageUtil.repair(tool, Math.abs(5 - world.getMoonPhase()));
+                // 月光下的自动回耐久走兼容封装，避免 More Resilient Tinkers 将其计入永久耐久损耗
+                ToolRepairHelper.repair(tool, Math.abs(5 - world.getMoonPhase()));
             }
         }
     }@Override

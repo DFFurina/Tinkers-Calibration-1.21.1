@@ -16,11 +16,9 @@ import net.neoforged.neoforge.client.gui.VanillaGuiLayers;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.SubscribeEvent;
 import slimeknights.tconstruct.common.TinkerTags;
-import slimeknights.tconstruct.library.modifiers.hook.build.ConditionalStatModifierHook;
 import slimeknights.tconstruct.library.tools.item.IModifiable;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.library.tools.nbt.ToolStack;
-import slimeknights.tconstruct.library.tools.stat.ToolStats;
 
 import static slimeknights.tconstruct.library.modifiers.hook.interaction.GeneralInteractionModifierHook.KEY_DRAWTIME;
 
@@ -77,7 +75,8 @@ public class RangedDrawHud {
                         if (!persistentData.contains(KEY_DRAWTIME, 3)) {
                             guiGraphics.blit(NO_CHARGE, x - 4, height / 2 - 4, 0, 0, 8, 8, 8, 8);
                         } else {
-                            double total = 16.0 / ConditionalStatModifierHook.getModifiedStat(tool, player, ToolStats.DRAW_SPEED);
+                            // draw time is stored by the bow when drawing starts (ceil(20 / draw speed)), use it instead of recomputing
+                            double total = persistentData.getInt(KEY_DRAWTIME);
                             int eta = (int) Math.max(0, Math.ceil(total - player.getTicksUsingItem()));
                             float charge = 1 - (float) (eta / total);
                             charge = (charge * charge + charge * 2.0F) / 3.0F;

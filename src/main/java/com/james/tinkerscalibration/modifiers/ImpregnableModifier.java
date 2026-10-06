@@ -11,7 +11,6 @@ import slimeknights.mantle.registration.RegistryObject;
 import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.common.TinkerEffect;
 import slimeknights.tconstruct.common.TinkerTags;
-import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
@@ -38,7 +37,11 @@ public class ImpregnableModifier extends Modifier implements TooltipModifierHook
         hookBuilder.addHook(this, ModifierHooks.TOOLTIP, ModifierHooks.BLOCK_BREAK, ModifierHooks.TOOL_DAMAGE, ModifierHooks.CONDITIONAL_STAT, ModifierHooks.PROJECTILE_LAUNCH);
     }
 
-    private static float getBonus(LivingEntity living, RegistryObject<? extends TinkerEffect> effect, int level, float scale) {
+    private static float getBonus(@Nullable LivingEntity living, RegistryObject<? extends TinkerEffect> effect, int level, float scale) {
+        // without an entity there is no effect to read (tool damage without a holder)
+        if (living == null) {
+            return 0;
+        }
         int effectLevel = effect.get().getLevel(living) + 1;
         return level * effectLevel / scale;
     }
@@ -82,13 +85,11 @@ public class ImpregnableModifier extends Modifier implements TooltipModifierHook
     @Override
     public void addTooltip(IToolStackView tool, ModifierEntry modifier, @Nullable Player player, List<Component> tooltip, slimeknights.mantle.client.TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
         boolean harvest = tool.hasTag(TinkerTags.Items.HARVEST);
-        if (harvest || tool.hasTag(TinkerTags.Items.RANGED)) {
-            float bonus;
-            if (player != null && tooltipKey == TooltipKey.SHIFT) {
-                bonus = getBonus(player, Utils.impregnableEffect, modifier.getLevel(), 6);
-                if (bonus > 0) {
-                    TooltipModifierHook.addPercentBoost(modifier.getModifier(), UNBREAKING, 1 / bonus, tooltip);
-                }
+        // player is null when the tooltip is built without an entity (creative search, recipe viewers)
+        if (player != null && tooltipKey == TooltipKey.SHIFT && (harvest || tool.hasTag(TinkerTags.Items.RANGED))) {
+            float bonus = getBonus(player, Utils.impregnableEffect, modifier.getLevel(), 6);
+            if (bonus > 0) {
+                TooltipModifierHook.addPercentBoost(modifier.getModifier(), UNBREAKING, 1 / bonus, tooltip);
             }
         }
     }

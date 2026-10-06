@@ -1,5 +1,6 @@
 package com.james.tinkerscalibration.modifiers;
 
+import com.james.tinkerscalibration.library.ToolRepairHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -45,8 +46,12 @@ public class IcyModifier extends Modifier implements ProjectileHitModifierHook, 
     public void onInventoryTick(IToolStackView tool, ModifierEntry modifier, Level world, LivingEntity holder, int itemSlot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
         if (canEffect(holder) && !tool.isBroken()) {
             int amount = (int) calcAmount(holder);
-            if (amount < 0) ToolDamageUtil.damage(tool, -amount, holder, stack);
-            else ToolDamageUtil.repair(tool, amount);
+            if (amount < 0) {
+                ToolDamageUtil.damage(tool, -amount, holder, stack);
+            } else {
+                // 寒冷地区的自动回耐久走兼容封装，避免 More Resilient Tinkers 将其计入永久耐久损耗
+                ToolRepairHelper.repair(tool, amount);
+            }
         }
     }
 

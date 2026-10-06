@@ -47,7 +47,11 @@ public class ArmorImpregnableModifier extends Modifier implements ToolDamageModi
         });
     }
 
-    private static float getBonus(LivingEntity living, RegistryObject<? extends TinkerEffect> effect, ModifierEntry modifier, float scale) {
+    private static float getBonus(@Nullable LivingEntity living, RegistryObject<? extends TinkerEffect> effect, ModifierEntry modifier, float scale) {
+        // without an entity there is no effect to read (tool damage without a holder)
+        if (living == null) {
+            return 0;
+        }
         int effectLevel = effect.get().getLevel(living) + 1;
         return modifier.getLevel() * effectLevel / scale;
     }

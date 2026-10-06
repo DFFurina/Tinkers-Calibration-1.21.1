@@ -20,7 +20,6 @@ import net.minecraft.world.phys.EntityHitResult;
 import slimeknights.mantle.registration.RegistryObject;
 import slimeknights.tconstruct.common.TinkerEffect;
 import slimeknights.tconstruct.common.TinkerTags;
-import slimeknights.tconstruct.TConstruct;
 import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
@@ -36,7 +35,6 @@ import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.library.tools.nbt.ModifierNBT;
-import slimeknights.tconstruct.library.tools.nbt.ModDataNBT;
 import slimeknights.tconstruct.library.tools.stat.FloatToolStat;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.mantle.client.TooltipKey;
@@ -44,7 +42,6 @@ import slimeknights.mantle.client.TooltipKey;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.List;
-import java.util.UUID;
 import java.util.function.BiConsumer;
 
 public class EnvyModifier extends Modifier implements TooltipModifierHook, AttributesModifierHook, InventoryTickModifierHook, MeleeHitModifierHook, ProjectileLaunchModifierHook, ProjectileHitModifierHook, ConditionalStatModifierHook {
@@ -59,8 +56,11 @@ public class EnvyModifier extends Modifier implements TooltipModifierHook, Attri
         return new MobEffectInstance((net.minecraft.core.Holder<net.minecraft.world.effect.MobEffect>)(net.minecraft.core.Holder<?>)Utils.envied.getHolder(), 40, Math.min(10, level));
     }
 
-    private static float getBonus(LivingEntity living, RegistryObject<? extends TinkerEffect> effect, ModifierEntry modifier, float scale) {
-        // 25% boost per level at max
+    private static float getBonus(@Nullable LivingEntity living, RegistryObject<? extends TinkerEffect> effect, ModifierEntry modifier, float scale) {
+        // 25% boost per level at max; without an entity (e.g. creative search tooltips) there is no effect to read
+        if (living == null) {
+            return 0;
+        }
         int effectLevel = effect.get().getLevel(living) + 1;
         return modifier.getLevel() * effectLevel / scale;
     }
@@ -120,10 +120,9 @@ public class EnvyModifier extends Modifier implements TooltipModifierHook, Attri
     }
     @Override
     public void addTooltip(IToolStackView tool, ModifierEntry modifier, @Nullable Player player, List<Component> tooltip, slimeknights.mantle.client.TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
-        if (tool.hasTag(TinkerTags.Items.RANGED)) {
-            if (tooltipKey == TooltipKey.SHIFT) {
-                TooltipModifierHook.addStatBoost(tool, modifier.getModifier(), ToolStats.VELOCITY, TinkerTags.Items.RANGED, getBonus(player, Utils.envyEffect, modifier, 16.0F), tooltip);
-            }
+        // player is null when the tooltip is built without an entity (creative search, recipe viewers)
+        if (player != null && tooltipKey == TooltipKey.SHIFT && tool.hasTag(TinkerTags.Items.RANGED)) {
+            TooltipModifierHook.addStatBoost(tool, modifier.getModifier(), ToolStats.VELOCITY, TinkerTags.Items.RANGED, getBonus(player, Utils.envyEffect, modifier, 16.0F), tooltip);
         }
     }
 }
